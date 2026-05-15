@@ -23,12 +23,12 @@ The strategy is deliberate: build verifiable, publishable tools first. Instituti
 
 Open-source bioacoustics analyzer for marine mammal vocalizations.
 
-- Classifies blue whale, humpback whale, and orca vocalizations from hydrophone recordings
-- EfficientNet-B0 CNN trained on mel spectrograms with two-pass inference
+- Classifies fin whale, humpback whale, and sperm whake (more to come) vocalizations from hydrophone recordings
+- PANNs CNN14 with AudioSet pretraining — trained on mel spectrograms with recording-level data split
 - Data sourced from NOAA, MBARI, Macaulay Library, and Orcasound
 - Apache 2.0 · Python 3.11+ · PyTorch · librosa
 
-> Currently in Stage 2 (ML Classification). Targeting ≥75% accuracy, Zenodo DOI, and pip installability.
+> In active development. Targeting ≥80% F1, Zenodo DOI, and pip installability.
 
 -----
 
